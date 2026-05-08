@@ -1,6 +1,5 @@
 from django.shortcuts import render
 from django.http import JsonResponse
-from .model import predict_image
 import os
 import uuid
 
