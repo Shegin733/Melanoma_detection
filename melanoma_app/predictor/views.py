@@ -15,6 +15,8 @@ def home(request):
 
 def predict(request):
 
+    from .model import predict_image
+
     if request.method == "POST":
 
         file = request.FILES.get("file")
