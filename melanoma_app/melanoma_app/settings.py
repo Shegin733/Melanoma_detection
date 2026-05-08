@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'melanoma_app.predictor',
+    'predictor',
     'corsheaders',
 ]
 
@@ -52,7 +52,7 @@ MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
 ]
 
-ROOT_URLCONF = 'melanoma_app.melanoma_app.urls'
+ROOT_URLCONF = 'melanoma_app.urls'
 
 TEMPLATES = [
     {
