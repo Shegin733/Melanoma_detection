@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-$kd%@tmjy65r$wu@*v7toq)cw5tdd6z6%#1^d_906r-z&)mm$n
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -52,7 +52,7 @@ MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
 ]
 
-ROOT_URLCONF = 'melanoma_app.urls'
+ROOT_URLCONF = 'melanoma_app.melanoma_app.urls'
 
 TEMPLATES = [
     {
